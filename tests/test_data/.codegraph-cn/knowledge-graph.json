@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "tool": "CodeGraph-CN"
+  },
+  "name": "codebase",
+  "nodes": {
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py:hello:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py:hello:function",
+      "name": "hello",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py",
+      "line": 2,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py:User:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py:User:class",
+      "name": "User",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py",
+      "line": 6,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py:main:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py:main:function",
+      "name": "main",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.py",
+      "line": 13,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js:hello:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js:hello:function",
+      "name": "hello",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js",
+      "line": 2,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js:Calculator:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js:Calculator:class",
+      "name": "Calculator",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js",
+      "line": 6,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js:add:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js:add:function",
+      "name": "add",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\tests\\test_data\\test.js",
+      "line": 7,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    }
+  },
+  "edges": []
+}
