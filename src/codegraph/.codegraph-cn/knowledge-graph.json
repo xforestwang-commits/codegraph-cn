@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "tool": "CodeGraph-CN"
+  },
+  "name": "codebase",
+  "nodes": {
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py:GraphNode:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py:GraphNode:class",
+      "name": "GraphNode",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py",
+      "line": 13,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py:GraphEdge:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py:GraphEdge:class",
+      "name": "GraphEdge",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py",
+      "line": 30,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py:KnowledgeGraph:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py:KnowledgeGraph:class",
+      "name": "KnowledgeGraph",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\graph\\__init__.py",
+      "line": 37,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py:MiMoMessage:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py:MiMoMessage:class",
+      "name": "MiMoMessage",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py",
+      "line": 10,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py:MiMoResponse:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py:MiMoResponse:class",
+      "name": "MiMoResponse",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py",
+      "line": 17,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py:MiMoClient:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py:MiMoClient:class",
+      "name": "MiMoClient",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\mimo\\__init__.py",
+      "line": 24,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:CodeEntity:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:CodeEntity:class",
+      "name": "CodeEntity",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py",
+      "line": 10,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:CodeParser:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:CodeParser:class",
+      "name": "CodeParser",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py",
+      "line": 26,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:PythonParser:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:PythonParser:class",
+      "name": "PythonParser",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py",
+      "line": 53,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:JavaScriptParser:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:JavaScriptParser:class",
+      "name": "JavaScriptParser",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py",
+      "line": 125,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:GoParser:class": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py:GoParser:class",
+      "name": "GoParser",
+      "type": "class",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\parser\\__init__.py",
+      "line": 180,
+      "language": "python",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:loadStats:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:loadStats:function",
+      "name": "loadStats",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 13,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:catch:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:catch:function",
+      "name": "catch",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 253,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:loadGraph:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:loadGraph:function",
+      "name": "loadGraph",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 28,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:loadLayers:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:loadLayers:function",
+      "name": "loadLayers",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 39,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:renderGraph:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:renderGraph:function",
+      "name": "renderGraph",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 50,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:dragStart:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:dragStart:function",
+      "name": "dragStart",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 136,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:drag:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:drag:function",
+      "name": "drag",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 142,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:dragEnd:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:dragEnd:function",
+      "name": "dragEnd",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 147,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:showNodeDetail:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:showNodeDetail:function",
+      "name": "showNodeDetail",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 180,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:renderLayers:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:renderLayers:function",
+      "name": "renderLayers",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 206,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:if:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:if:function",
+      "name": "if",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 243,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    },
+    "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:highlightNode:function": {
+      "id": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js:highlightNode:function",
+      "name": "highlightNode",
+      "type": "function",
+      "file_path": "C:\\Users\\forest\\.qclaw\\workspace-agent-09bd4612\\codegraph-cn\\src\\codegraph\\web\\static\\app.js",
+      "line": 259,
+      "language": "javascript",
+      "description": "",
+      "children": []
+    }
+  },
+  "edges": []
+}

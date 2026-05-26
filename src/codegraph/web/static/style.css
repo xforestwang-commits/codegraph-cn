@@ -1,0 +1,278 @@
+/* CodeGraph-CN Dashboard 样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #e0e0e0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 顶部 */
+.header {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #3a3a5a;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #4ecca3;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 1rem;
+}
+
+/* 统计卡片 */
+.stats-panel {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    gap: 15px;
+}
+
+.stat-card {
+    background: #2a2a4a;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 150px;
+}
+
+.stat-label {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.stat-value {
+    color: #4ecca3;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* 搜索 */
+.search-panel {
+    padding: 20px 0;
+}
+
+#search-input {
+    width: 60%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #2a2a4a;
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+#search-input:focus {
+    outline: 2px solid #4ecca3;
+}
+
+#search-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #4ecca3;
+    color: #1a1a2e;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#search-btn:hover {
+    background: #3db892;
+}
+
+.search-results {
+    margin-top: 15px;
+    display: none;
+}
+
+.search-results.active {
+    display: block;
+    background: #2a2a4a;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.search-result-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #3a3a5a;
+}
+
+.search-result-item:hover {
+    background: #3a3a5a;
+}
+
+/* 图谱容器 */
+.graph-container {
+    background: #2a2a4a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.controls {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.controls button, .controls select {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #3a3a5a;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #4a4a6a;
+}
+
+#graph-svg {
+    width: 100%;
+    height: 500px;
+    background: #1a1a2e;
+    border-radius: 5px;
+}
+
+.node-detail {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 300px;
+    background: #1a1a2e;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    border: 1px solid #4ecca3;
+}
+
+.node-detail.active {
+    display: block;
+}
+
+.node-detail h3 {
+    color: #4ecca3;
+    margin-bottom: 10px;
+}
+
+.node-detail p {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.node-detail .value {
+    color: #e0e0e0;
+}
+
+/* 架构层级 */
+.layers-panel {
+    margin-top: 30px;
+    padding: 20px;
+    background: #2a2a4a;
+    border-radius: 10px;
+}
+
+.layers-panel h2 {
+    color: #4ecca3;
+    margin-bottom: 20px;
+}
+
+.layer-group {
+    margin-bottom: 20px;
+}
+
+.layer-title {
+    color: #e0e0e0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.layer-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.layer-item {
+    background: #3a3a5a;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+.layer-item:hover {
+    background: #4ecca3;
+    color: #1a1a2e;
+}
+
+/* D3 图谱节点样式 */
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    stroke-width: 2px;
+}
+
+.node.function circle {
+    fill: #4ecca3;
+    stroke: #3db892;
+}
+
+.node.class circle {
+    fill: #e94560;
+    stroke: #c73659;
+}
+
+.node.struct circle {
+    fill: #0f3460;
+    stroke: #16213e;
+}
+
+.node.interface circle {
+    fill: #f5a623;
+    stroke: #d4891f;
+}
+
+.node text {
+    font-size: 12px;
+    fill: #e0e0e0;
+}
+
+.link {
+    stroke: #4a4a6a;
+    stroke-opacity: 0.6;
+    stroke-width: 1px;
+}
+
+.link.contains {
+    stroke: #4ecca3;
+}
+
+.link.calls {
+    stroke: #e94560;
+}

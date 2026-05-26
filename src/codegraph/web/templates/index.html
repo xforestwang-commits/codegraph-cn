@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeGraph-CN Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 顶部导航 -->
+        <header class="header">
+            <h1>🏗️ CodeGraph-CN</h1>
+            <p class="subtitle">中文代码知识图谱可视化</p>
+        </header>
+
+        <!-- 统计信息 -->
+        <section class="stats-panel">
+            <div class="stat-card">
+                <span class="stat-label">节点总数</span>
+                <span class="stat-value" id="stat-nodes">-</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">关系总数</span>
+                <span class="stat-value" id="stat-edges">-</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">函数</span>
+                <span class="stat-value" id="stat-functions">-</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">类/结构体</span>
+                <span class="stat-value" id="stat-classes">-</span>
+            </div>
+        </section>
+
+        <!-- 搜索栏 -->
+        <section class="search-panel">
+            <input type="text" id="search-input" placeholder="搜索代码实体（如：login、auth、User）..." />
+            <button id="search-btn">🔍 搜索</button>
+            <div id="search-results" class="search-results"></div>
+        </section>
+
+        <!-- 图谱可视化 -->
+        <section class="graph-container">
+            <div class="controls">
+                <button id="zoom-in">➕ 放大</button>
+                <button id="zoom-out">➖ 缩小</button>
+                <button id="reset">🔄 重置</button>
+                <select id="filter-type">
+                    <option value="all">全部类型</option>
+                    <option value="function">函数</option>
+                    <option value="class">类</option>
+                    <option value="struct">结构体</option>
+                </select>
+            </div>
+            <div id="graph-svg"></div>
+            <div id="node-detail" class="node-detail"></div>
+        </section>
+
+        <!-- 架构层级 -->
+        <section class="layers-panel">
+            <h2>🏗️ 架构层级</h2>
+            <div id="layers-content"></div>
+        </section>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

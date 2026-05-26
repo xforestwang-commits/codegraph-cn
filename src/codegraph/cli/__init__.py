@@ -2,7 +2,14 @@
 
 import argparse
 import sys
+import os
 from pathlib import Path
+
+# Windows 编码设置
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+    os.system("chcp 65001 >nul 2>&1")
 
 from codegraph.parser import parse_codebase, CodeEntity
 from codegraph.graph import KnowledgeGraph, build_graph_from_codebase
@@ -137,9 +144,15 @@ def cmd_layers(args: argparse.Namespace) -> int:
 
 def cmd_visualize(args: argparse.Namespace) -> int:
     """启动可视化服务."""
-    print("🚧 可视化功能开发中...")
-    print("   预计支持: Web Dashboard 展示代码知识图谱")
-    print("   可以先用 cmd_stats 查看分析结果")
+    root_path = Path(args.path).resolve()
+
+    graph_file = root_path / ".codegraph-cn" / "knowledge-graph.json"
+    if not graph_file.exists():
+        print("错误: 未找到知识图谱文件，请先运行 analyze 命令", file=sys.stderr)
+        return 1
+
+    from ..web import run_dashboard
+    run_dashboard(graph_file, port=args.port)
     return 0
 
 
